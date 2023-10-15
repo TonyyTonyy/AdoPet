@@ -1,0 +1,27 @@
+.dropzone {
+    text-align: center;
+    border: 0.5px solid black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+
+}
+
+.icone {
+    box-sizing: content-box;
+    margin: auto;
+    padding: 60px;
+    max-width: 90px;
+    max-height: 80px;
+    cursor: pointer;
+}
+
+.input_file {
+    display: none;
+}
+
+.texto {    
+    color: #6C757D;
+    font-weight: bold;
+    padding: 0px 32px;
+}

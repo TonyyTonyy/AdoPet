@@ -1,0 +1,19 @@
+.icon {
+    display:flex;
+  align-items:center;
+}
+.icon img{
+    margin-right: 10px;
+    object-fit: contain;
+    width: 45px;
+}
+.icon p{
+    margin:0; 
+    color: black;
+    
+}
+
+.link{
+    outline: none;
+    text-decoration: none;
+}
