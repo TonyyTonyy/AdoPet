@@ -1,6 +1,8 @@
 import style from './style.module.css'
 import IconProfile from '../IconProfile'
-import avatar from '../../assets/Ellipse 2.svg'
+import img from '../../assets/Ellipse 2.svg'
+import Logo from '../../assets/Vector.svg'
+
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {
@@ -8,11 +10,11 @@ const Navbar = () => {
         <nav className={style.nav}>
             <div>
                 <Link to="/">
-                    <h1 >Trans</h1>
+                    <img src={Logo} alt="Logo" width={190} height={100} />
                 </Link>
             </div>
             <div>
-                <IconProfile src={avatar} nome="Emilly Castro" />
+                <IconProfile src={img} nome="Emilly Castro" />
             </div>
 
         </nav>

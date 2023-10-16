@@ -6,7 +6,7 @@
     padding: 5px 10px;
 
     border: 0.5px solid rgba(0, 0, 0, 0.385);
-    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.325);
+    resize: none;
 }
 
 .label {

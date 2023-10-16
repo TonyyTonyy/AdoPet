@@ -25,7 +25,7 @@
 
 /* primaria 200 */
 .primary_200 {
-    color: #EFADCE;
+    color: #055160;
 }
 
 .bg_primary_200 {
@@ -92,17 +92,17 @@
 }
 
 .bg_primary_900 {
-    background-color: #2B0A1A;
+    background-color: #CFF4FC;
 }
 
 /* Tons de Preto */
 /* preto 100 */
-.black_100 {
-    color: #000000;
+.white_100 {
+    color: #FFFFFF;
 }
 
-.bg_black_100 {
-    background-color: #000000;
+.bg_white_100 {
+    background-color: #FFFFFF;
 }
 
 /* preto 200 */
@@ -204,4 +204,7 @@
 
 .bg_black_1200 {
     background-color: #F8F9FA;
+}
+.border_primary_900 {
+    border: 2px solid #CFF4FC;
 }
