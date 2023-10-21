@@ -56,7 +56,7 @@
 }
 
 .bg_primary_500 {
-    background-color: #D63384;
+    background-color: #3DD5F3;
 }
 
 /* primaria 600 */
@@ -101,6 +101,9 @@
     color: #FFFFFF;
 }
 
+.black_100{
+    color: #000000;
+}
 .bg_white_100 {
     background-color: #FFFFFF;
 }

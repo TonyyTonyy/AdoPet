@@ -1,5 +1,5 @@
 import style from "./style.module.css"
-import Logo from "../../assets/search.svg"
+import Logo from "../../assets/lupa.svg"
 
 const FilterInput = (props) => {
     return (

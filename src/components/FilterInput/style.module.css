@@ -1,18 +1,24 @@
 .input {
     display: flex;
     align-items: center;
-    border: 1px solid #D63384;
-    border-radius: 42px;
+    
     position: relative;
-    padding: 10px;
-    padding-left: 20px;
-    max-width: 300px;
+    width: 360px;
+    box-sizing: border-box;
+  
+}
+@media screen and (max-width: 600px) {
+    .input{
+        width: 240px;
+    }
+    
 }
 
 .input input[type="text"] {
-    width: cal(100%-5px);
+    width: 100%;
     border: none;
-    padding-right: 30px;
+    padding:12px;
+    border-radius: 42px;
     outline: none;
 
     ::placeholder {
