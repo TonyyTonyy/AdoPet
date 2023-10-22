@@ -10,10 +10,9 @@ import React, { useState } from 'react';
 
 
 const Navbar = (props) => {
-    const [menuOpen, setMenuOpen] = useState(true);
 
     const toggleMenu = () => {
-        setMenuOpen(!menuOpen);
+       
     };
     return (
         <nav className={style.nav}>
@@ -25,8 +24,6 @@ const Navbar = (props) => {
             <div>
                 <FilterInput placeholder="Pesquisar por Animais..." />
             </div>
-            
-{menuOpen === true ? (
             <ul>
                 <li>Ongs <br /> Protetores</li>
                 <li><ButtonRound nome="Relatar Animal" className="bg_primary_500 black_100" /></li>
@@ -42,10 +39,8 @@ const Navbar = (props) => {
                </li>
             )}
          </ul>
-    
-): (
-    <i onClick={toggleMenu} className="bi bi-list fs-2"></i>
-)}
+        <i onClick={toggleMenu} className="bi bi-list fs-2"></i>
+
 
         </nav>
     )
