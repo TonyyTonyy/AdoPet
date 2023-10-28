@@ -1,6 +1,8 @@
 import Navbar from "../../components/Navbar"
 import CardOngs from "../../components/CardOngs"
-import { CardOngs_DATA } from "../../constants/constants"
+import CardOngs_DATA from "../../constants/constants"
+
+import style from "./style.module.css"
 const Ongs = () => {
     return (
         <div className={`d-flex flex-column `}>

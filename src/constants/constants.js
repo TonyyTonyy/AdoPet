@@ -8,3 +8,4 @@ const CardOngs_DATA = [
     
    
 ];
+export default CardOngs_DATA
