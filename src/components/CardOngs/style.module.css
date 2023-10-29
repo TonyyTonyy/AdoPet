@@ -24,3 +24,10 @@
 .card a{
     margin-top:20px;
 }
+.card img{
+    object-fit: cover;
+    max-width: 200px;
+}
+.card a button {
+    
+}

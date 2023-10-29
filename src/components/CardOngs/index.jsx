@@ -1,16 +1,16 @@
-import style from './style.module.css'
-import ButtonRound from '../ButtonRound'
+import style from "./style.module.css";
+import ButtonRound from "../ButtonRound";
 
 const CardOngs = (props) => {
-    return (
-        <div className={style.card}>
-            <h6>{props.foto}</h6>
-            <h3>{props.nome}</h3>
-            <h1>{props.localizacao}</h1>
-            <a>
-                <ButtonRound nome="Ver mais"/>
-            </a>
-        </div>
-    )
-}
+  return (
+    <div className={style.card}>
+      <img src={props.foto} />
+      <h1>{props.nome}</h1>
+      <h3>{props.localizacao}</h3>
+      <a>
+        <button>Ver Mais</button>
+      </a>
+    </div>
+  );
+};
 export default CardOngs;

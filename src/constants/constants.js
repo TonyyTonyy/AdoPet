@@ -1,7 +1,7 @@
-import OngMais from '../assets/OngMais.svg'
+
 const CardOngs_DATA = [
     {
-        foto: OngMais,
+        foto: 'https://i.pinimg.com/originals/bf/d8/67/bfd867d85dcf30b0de9844cd9a0f156e.jpg',
         nome: 'OngMais',
         localizacao: 'Rua Boa Morte - 3 Riachos - Feira de Santana - Bahia'
     }

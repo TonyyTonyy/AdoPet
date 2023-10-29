@@ -3,6 +3,9 @@ import Home from './pages/Home'
 import Login from './pages/Login'
 import Relatorio from './pages/Relatorio'
 import Ongs from './pages/Ongs'
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 function App() {

@@ -1,4 +1,4 @@
-import style from './style.module.css'
+import style from "./style.module.css";
 
 const Input = (props) => {
   function handleFocus(e) {
@@ -13,10 +13,10 @@ const Input = (props) => {
 
   return (
     <div className={`${style.div}`}>
-      <label htmlFor={props.id}
-        className={`${style.label}`}>
-        {props.label}</label>
-      
+      <label htmlFor={props.id} className={`${style.label}`}>
+        {props.label}
+      </label>
+
       <input
         type={props.type}
         name={props.nome}
@@ -25,9 +25,8 @@ const Input = (props) => {
         className={`${style.input} `}
         onFocus={handleFocus}
         onBlur={handleBlur}
-
       />
     </div>
-  )
-}
-export default Input;   
+  );
+};
+export default Input;
