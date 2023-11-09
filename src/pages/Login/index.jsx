@@ -8,7 +8,7 @@ return (
     <div className={style.main}>
          <div className={`${style.div_login} bg_black_1200 `}>
             <div className={style.imagem}>
-                <img src={Logo} width={336} height={60}/>
+                <img src={Logo} className={style.imagemLogo}/>
                 <p className={style.acesse}>Acesse sua Conta</p>
                 </div>
                 <div className={`d-flex flex-column `}>

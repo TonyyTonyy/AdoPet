@@ -1,7 +1,7 @@
 .nav {
     width:100% !important;
     height:100px;
-    background-color: #E9ECEF;
+    background-color: rgb(215, 215, 215);
     display: flex;
     justify-content: space-evenly !important;
     align-items: center;

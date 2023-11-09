@@ -1,7 +1,8 @@
 .card {    
-    margin: 150px 240px;    
+    border: 1px solid rgba(0, 0, 0, 0.312);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     padding: 60px;
+    margin: 20px;
     position: relative;
 }
 
