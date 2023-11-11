@@ -1,32 +1,37 @@
-.card {    
+.card {
     border: 1px solid rgba(0, 0, 0, 0.312);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    padding: 60px;
-    margin: 20px;
+    padding: 4vw; 
+    padding-top: 10vw;
+    margin: 4vw;
     position: relative;
 }
 
 .card::before {
     content: "Relatar Pet";
     position: absolute;
-    top: -40px;
-    font-size: 32px;
-    border-bottom: solid 4px #3dd5f3;
-    width: 170px;
+    top: 10px; 
+    font-size: 4vw; 
+    border-bottom: solid 0.4vw #3dd5f3;
+    width: 50vw;
     font-family: "Open Sans";
     font-weight: bold;
 }
-.img{
-    width: 40px;
-    height: 239px;
-    border: 1px solid black;
-    border-radius: 5px;
+
+.img {
+    width: 10vw;
+    margin-top: 25px;
+    min-height: 200px;
+    min-width: 200px; 
+    border: 0.1vw solid black;
+    border-radius: 1vw; 
+    padding: 1vw;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
 }
-p{
+
+p {
     color: #6c757d;
-    
 }

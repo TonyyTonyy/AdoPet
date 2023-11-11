@@ -1,8 +1,9 @@
 .banner_main{
-    margin: 20px;
+    margin: 20px auto;
     border: 1px solid transparent;
     border-radius: 10px;
     cursor: pointer;
+    max-width: 1000px;
 }
 .banner{
     width: 100%;

@@ -9,8 +9,12 @@
 }
 @media screen and (max-width: 600px) {
     .input{
-        width: 240px;
+        width: 200px;
     }
+    .input input[type="text"] {
+      font-size: 12px !important;
+    }
+    
     
 }
 
@@ -20,11 +24,6 @@
     padding:12px;
     border-radius: 42px;
     outline: none;
-
-    ::placeholder {
-        color: #ADB5BD;
-        font-weight: 800;
-    }
 }
 
 

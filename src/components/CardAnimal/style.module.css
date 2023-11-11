@@ -1,0 +1,76 @@
+.animalCard {
+    display: flex;
+    border: 1px solid #ccc;
+    margin: 20px;
+    align-items: center;
+
+
+    width:100%;
+    position: relative;
+    background-color: #F1F1F1;
+    border-radius: 10px;
+}
+
+.animalImage {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.animalInfo {
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.cardContent {
+    margin-bottom: 10px;
+}
+.cardContent p {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px !important;
+    margin-top: 10px;
+}
+.cardContent p span{
+    font-weight: 700;
+    color: black;
+    font-size: 20px;
+}
+
+.cardIcons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sexIcon {
+    font-size: 27px;    
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 15px;
+    margin-top: 5px;
+    
+}
+.raca{
+    margin-right: 30px;
+}
+
+.favoriteIcon {
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    right: 0;
+}
+.iconContainer {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}

@@ -1,0 +1,67 @@
+.buscarCategoria {  
+    margin: 20px;
+    max-width: 40%;
+    border: 2px solid #343A40;
+    border-radius: 10px;
+    max-height: 530px;
+
+}
+
+.categoria {
+    margin-top: 20px;
+    padding: 0px 20px;
+}
+
+.h2 {
+    font-size: 20px ;
+    background-color: #E9ECEF;
+    text-align: center;
+    padding: 13px 43px;
+    border-radius: 10px;
+    font-weight: 700 !important;
+    white-space: nowrap;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #343A40;
+}
+
+.animaisList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.animaisList li {
+    font-size: 16px;
+    color: #6C757D;
+    margin-bottom: 8px;
+    text-align: start !important;
+    border: none !important;
+    padding-left: 40px;
+}
+.animalCardsContainer {
+    display: flex;
+    width: 600px;
+    margin: 20px 100px;
+    flex-direction: column;
+
+
+
+}
+@media screen and (max-width: 700px) {
+    .buscarCategoria {  
+       
+        max-width: none;
+    
+    }
+    .animalCardsContainer {
+
+        margin: 20px 0px;
+
+    
+    
+    
+    }
+}
