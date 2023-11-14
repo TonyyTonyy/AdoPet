@@ -5,6 +5,7 @@ import SessionPet from '../../components/SessionPet';
 import Cachorro from '../../assets/Cachorro.svg'
 import Gato from '../../assets/Gato.svg'
 import styles from './style.module.css'
+import CardPet from '../../components/CardPet';
 
 const Home = () => {
     const [isLoading, setIsLoading] = useState(true);
@@ -36,7 +37,22 @@ const Home = () => {
                         <SessionPet animal='Gatos' img={Gato}/>
                     </div>
                 </div>
+            
+               </div>
+
+
+        <div>
+
+            <div>
+
+                <div>
+                    <CardPet/>
+                </div>
+                    
             </div>
+            
+        </div>
+
         </>
     );
 }
