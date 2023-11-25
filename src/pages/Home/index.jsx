@@ -6,7 +6,7 @@ import Cachorro from "../../assets/Cachorro.svg";
 import Gato from "../../assets/Gato.svg";
 import styles from "./style.module.css";
 import CardPet from "../../components/CardPet";
-
+import { Link } from "react-router-dom";
 const Home = () => {
   const [isLoading, setIsLoading] = useState(true);
 
@@ -27,36 +27,48 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <div></div>
-
-      <Carrosel />
-      <div
-        className={`container-fluid d-flex align-items-center justify-content-center`}
-      >
-        <div className={`row gap-3`}>
-          <div className={`col-12 col-md-6`}>
-            <SessionPet animal="Cachorros" img={Cachorro} />
-          </div>
-          <div className={`col-12 col-md-5`}>
-            <SessionPet animal="Gatos" img={Gato} />
-          </div>
+      <div className={styles.container_menu}>
+        <Carrosel />
+        <div className="d-flex flex-wrap justify-content-md-around justify-content-center gap-3">
+          <SessionPet animal="Cachorros" img={Cachorro} />
+          <SessionPet animal="Gatos" img={Gato} />
         </div>
-      </div>
 
-      <div className="d-flex flex-wrap">
-        <CardPet nome="Peludinho" especie="Cachorro" raca="Dalmata" />
-        <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
-        <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
-        <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
-        <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
-      </div>
+        <div className="d-flex overflow-scroll">
+          <CardPet nome="Peludinho" especie="Cachorro" raca="Dalmata" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Peludinho" especie="Cachorro" raca="Dalmata" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Peludinho" especie="Cachorro" raca="Dalmata" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+        </div>
 
-      <div className="d-flex flex-wrap">
-        <CardPet nome="Peludinho" especie="Cachorro" raca="Dalmata" />
-        <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
-        <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
-        <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
-        <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+        <div className="d-flex overflow-scroll">
+          <CardPet nome="Peludinho" especie="Cachorro" raca="Dalmata" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Peludinho" especie="Cachorro" raca="Dalmata" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Peludinho" especie="Cachorro" raca="Dalmata" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+        </div>
       </div>
     </>
   );

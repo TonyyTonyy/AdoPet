@@ -14,14 +14,15 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/login' element={<Login />} />
-        <Route path='/Relatorio' element={<Relatorio />} />
-        <Route path='/Ongs' element={<Ongs />} />
-        <Route path='/AnimaisFiltro' element={<AnimaisFiltro />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/Relatorio" element={<Relatorio />} />
+        <Route path="/Ongs" element={<Ongs />} />
+        <Route path="/AnimaisFiltro" element={<AnimaisFiltro />} />
+        <Route path="/teste" element={<SessionPet />} />
       </Routes>
     </>
-  )
+  );
 }
 
 export default App

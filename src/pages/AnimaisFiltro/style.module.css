@@ -57,11 +57,9 @@ h3 {
     
     }
     .animalCardsContainer {
-
         margin: 20px 0px;
-
-    
-    
-    
+        flex-wrap: wrap; /* Adiciona a propriedade flex-wrap para quebrar as divs */
+        align-items: center; /* Opcional: centraliza os itens quando houver quebra de linha */
+        width: 80%;
     }
 }

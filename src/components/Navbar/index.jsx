@@ -21,15 +21,19 @@ const Navbar = (props) => {
         <FilterInput placeholder="Pesquisar por Animais..." />
       </div>
       <ul>
+      <Link style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' , textAlign: 'center'}} to="/Ongs" >
         <li>
           Ongs <br /> Protetores
         </li>
+        </Link>
+        <Link style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' , textAlign: 'center'}} to="/Relatorio" >
         <li>
           <ButtonRound
             nome="Relatar Animal"
-            className="bg_primary_500 black_100"
+            className="black_100"
           />
         </li>
+        </Link>
 
         {props.isLogged == "true" ? (
           <li>
@@ -37,7 +41,7 @@ const Navbar = (props) => {
           </li>
         ) : (
           <li>
-            <ButtonRound nome="Logar" className="black_100 bg_white_100" />
+            <ButtonRound nome="Logar" className="black_100" />
           </li>
         )}
       </ul>

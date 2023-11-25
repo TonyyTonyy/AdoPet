@@ -74,3 +74,34 @@
     flex-direction: column;
     align-items: flex-end;
 }
+@media screen and (max-width: 700px) {
+    .animalCard {
+        flex-direction: column;
+        padding:5px;
+    }
+
+    .animalImage {
+        width: 60%;
+
+    }
+
+    .animalInfo {
+        align-items: flex-start; 
+        text-align: left; 
+    }
+
+    .cardIcons {
+        justify-content: flex-start; 
+    }
+
+    .iconContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .animalSpecie {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+}

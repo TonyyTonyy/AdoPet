@@ -11,7 +11,7 @@ const CardAnimal = ({ nome, especie, idade, raca, isMacho, isFavorito, imagemSrc
             <div className={style.animalInfo}>
                 <div className={style.cardContent}>
                     <p>Nome: <span>{nome}</span></p>
-                    <div className='d-flex flex-row gap-4'>
+                    <div className={`d-flex flex-row gap-4 ${style.animalSpecie}`}>
                         <p>Espécie: <span>{especie}</span></p>
                         <p>Idade aprox:<span> {idade}</span></p>
                         <p className={style.raca}>Raça: <span>{raca}</span></p>
