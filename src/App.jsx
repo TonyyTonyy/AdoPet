@@ -4,6 +4,7 @@ import Login from './pages/Login'
 import Relatorio from './pages/Relatorio'
 import AnimaisFiltro from './pages/AnimaisFiltro'
 import Ongs from './pages/Ongs'
+import SessionPet from "./components/SessionPet";
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 

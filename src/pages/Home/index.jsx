@@ -30,11 +30,15 @@ const Home = () => {
       <div className={styles.container_menu}>
         <Carrosel />
         <div className="d-flex flex-wrap justify-content-md-around justify-content-center gap-3">
-          <SessionPet animal="Cachorros" img={Cachorro} />
-          <SessionPet animal="Gatos" img={Gato} />
+          <SessionPet
+            animal="Cachorros"
+            className="flex-grow-1"
+            img={Cachorro}
+          />
+          <SessionPet animal="Gatos" className="flex-grow-1" img={Gato} />
         </div>
 
-        <div className="d-flex overflow-scroll">
+        <div className={`d-flex overflow-auto `}>
           <CardPet nome="Peludinho" especie="Cachorro" raca="Dalmata" />
           <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
           <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
@@ -52,7 +56,7 @@ const Home = () => {
           <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
         </div>
 
-        <div className="d-flex overflow-scroll">
+        <div className={`d-flex overflow-auto `}>
           <CardPet nome="Peludinho" especie="Cachorro" raca="Dalmata" />
           <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
           <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
