@@ -6,7 +6,10 @@ import Cachorro from "../../assets/Cachorro.svg";
 import Gato from "../../assets/Gato.svg";
 import styles from "./style.module.css";
 import CardPet from "../../components/CardPet";
+import TitleSection from "../../components/TitleSection";
+import CarrouselItem from "../../components/CarrouselItem";
 import { Link } from "react-router-dom";
+import Footer from "../../components/Footer";
 const Home = () => {
   const [isLoading, setIsLoading] = useState(true);
 
@@ -38,7 +41,8 @@ const Home = () => {
           <SessionPet animal="Gatos" className="flex-grow-1" img={Gato} />
         </div>
 
-        <div className={`d-flex overflow-auto `}>
+        <TitleSection title="Animais para Você" />
+        <CarrouselItem>
           <CardPet nome="Peludinho" especie="Cachorro" raca="Dalmata" />
           <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
           <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
@@ -54,9 +58,10 @@ const Home = () => {
           <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
           <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
           <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
-        </div>
+        </CarrouselItem>
 
-        <div className={`d-flex overflow-auto `}>
+        <TitleSection title="Cachorros" />
+        <CarrouselItem>
           <CardPet nome="Peludinho" especie="Cachorro" raca="Dalmata" />
           <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
           <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
@@ -72,8 +77,47 @@ const Home = () => {
           <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
           <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
           <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
-        </div>
+        </CarrouselItem>
+
+        <TitleSection title="Gatos" />
+        <CarrouselItem>
+          <CardPet nome="Peludinho" especie="Cachorro" raca="Dalmata" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Peludinho" especie="Cachorro" raca="Dalmata" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Peludinho" especie="Cachorro" raca="Dalmata" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+        </CarrouselItem>
+
+        <TitleSection title="Ongs" />
+        <CarrouselItem>
+          <CardPet nome="Peludinho" especie="Cachorro" raca="Dalmata" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Peludinho" especie="Cachorro" raca="Dalmata" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Peludinho" especie="Cachorro" raca="Dalmata" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" />
+        </CarrouselItem>
       </div>
+      <Footer />
     </>
   );
 };

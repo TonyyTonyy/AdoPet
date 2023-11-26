@@ -4,7 +4,6 @@
     flex-grow: 1;
     color: #ffffff;
     border: 1px solid transparent;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.43);
     font-size: 1em;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
@@ -19,5 +18,7 @@
     display:flex;
     max-width: 180px;    
 }
-
+.btn:hover{
+border: 1px solid rgba(0, 0, 0, 0.212);
+}
 

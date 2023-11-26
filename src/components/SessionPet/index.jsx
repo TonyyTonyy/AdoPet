@@ -15,7 +15,7 @@ const SessionPet = (props) => {
             <h1 style={{ color: "black" }} className={`${styles.h1} `}>
               {props.animal}
             </h1>
-            <img src={props.img} />
+            <img src={props.img} className={`${styles.img}`} />
           </div>
         </Link>
       </div>
