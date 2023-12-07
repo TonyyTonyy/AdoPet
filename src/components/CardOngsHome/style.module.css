@@ -1,0 +1,53 @@
+.Session{
+    height: 410px;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.CardPet{
+   padding-left: 12px;    
+}
+.compPet{
+    border: 1px solid rgba(0, 0, 0, 0.405);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.221);
+    width: 262px;
+    height: 410px;
+    background-color: #F1F1F1;
+    display: flex;
+    margin-left: 20px;
+}
+
+.imgDog{
+    width: 260px;
+    height: 180px;
+    padding: 10px;
+    object-fit: cover;
+}
+
+.span{
+    color: rgba(0, 0, 0, 0.433);
+}
+
+.nome{
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.infoCard{
+    padding-left: 10px;
+    
+}
+
+.infoCard2{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;    
+}
+
+.div2{
+    display: flex;
+    gap: 60px;
+    margin-left: 5px;
+}
