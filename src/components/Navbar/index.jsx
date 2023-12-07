@@ -40,9 +40,11 @@ const Navbar = (props) => {
             <IconProfile src={img} />
           </li>
         ) : (
+          <Link style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' , textAlign: 'center'}} to="/Login" >
           <li>
             <ButtonRound nome="Logar" className="black_100" />
           </li>
+          </Link>
         )}
       </ul>
       <i onClick={toggleMenu} className="bi bi-list fs-2"></i>
