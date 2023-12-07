@@ -59,17 +59,18 @@ const Home = () => {
           <CardPet nome="Rex" especie="Cachorro" raca="SRD" url={img2} />
           <CardPet nome="Tanatos" especie="Cachorro" raca="SRD" url={img3} />
           <CardPet nome="Toby" especie="Cachorro" raca="SRD" url={img4} />
-          <CardPet nome="Rex" especie="Cachorro" raca="SRD" url={img1} />
+          <CardPet nome="Peludinho" especie="Gato" raca="Siames" url={imgCat1} />
+          <CardPet nome="Rex" especie="Gato" raca="SRD" url={imgCat2} />
+          <CardPet nome="Tanatos" especie="Gato" raca="Sphynx" url={imgCat3} />
+          <CardPet nome="Toby" especie="Gato" raca="SRD" url={imgCat4} />
           <CardPet nome="Peludinho" especie="Cachorro" raca="Dalmata" url={img1} />
-          <CardPet nome="Rex" especie="Cachorro" raca="SRD" url={img1} />
-          <CardPet nome="Rex" especie="Cachorro" raca="SRD" url={img1} />
-          <CardPet nome="Rex" especie="Cachorro" raca="SRD" url={img1} />
-          <CardPet nome="Rex" especie="Cachorro" raca="SRD" url={img1} />
-          <CardPet nome="Peludinho" especie="Cachorro" raca="Dalmata" url={img1} />
-          <CardPet nome="Rex" especie="Cachorro" raca="SRD" url={img1} />
-          <CardPet nome="Rex" especie="Cachorro" raca="SRD" url={img1} />
-          <CardPet nome="Rex" especie="Cachorro" raca="SRD" url={img1} />
-          <CardPet nome="Rex" especie="Cachorro" raca="SRD" url={img1} />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" url={img2} />
+          <CardPet nome="Tanatos" especie="Cachorro" raca="SRD" url={img3} />
+          <CardPet nome="Toby" especie="Cachorro" raca="SRD" url={img4} />
+          <CardPet nome="Peludinho" especie="Gato" raca="Siames" url={imgCat1} />
+          <CardPet nome="Rex" especie="Gato" raca="SRD" url={imgCat2} />
+          <CardPet nome="Tanatos" especie="Gato" raca="Sphynx" url={imgCat3} />
+          <CardPet nome="Toby" especie="Gato" raca="SRD" url={imgCat4} />
         </CarrouselItem>
 
         <TitleSection title="Cachorros" />
@@ -78,17 +79,18 @@ const Home = () => {
           <CardPet nome="Rex" especie="Cachorro" raca="SRD" url={img2} />
           <CardPet nome="Tanatos" especie="Cachorro" raca="SRD" url={img3} />
           <CardPet nome="Toby" especie="Cachorro" raca="SRD" url={img4} />
-          <CardPet nome="Rex" especie="Cachorro" raca="SRD" url={img1} />
           <CardPet nome="Peludinho" especie="Cachorro" raca="Dalmata" url={img1} />
-          <CardPet nome="Rex" especie="Cachorro" raca="SRD" url={img1} />
-          <CardPet nome="Rex" especie="Cachorro" raca="SRD" url={img1} />
-          <CardPet nome="Rex" especie="Cachorro" raca="SRD" url={img1} />
-          <CardPet nome="Rex" especie="Cachorro" raca="SRD" url={img1} />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" url={img2} />
+          <CardPet nome="Tanatos" especie="Cachorro" raca="SRD" url={img3} />
+          <CardPet nome="Toby" especie="Cachorro" raca="SRD" url={img4} />
           <CardPet nome="Peludinho" especie="Cachorro" raca="Dalmata" url={img1} />
-          <CardPet nome="Rex" especie="Cachorro" raca="SRD" url={img1} />
-          <CardPet nome="Rex" especie="Cachorro" raca="SRD" url={img1} />
-          <CardPet nome="Rex" especie="Cachorro" raca="SRD" url={img1} />
-          <CardPet nome="Rex" especie="Cachorro" raca="SRD" url={img1} />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" url={img2} />
+          <CardPet nome="Tanatos" especie="Cachorro" raca="SRD" url={img3} />
+          <CardPet nome="Toby" especie="Cachorro" raca="SRD" url={img4} />
+          <CardPet nome="Peludinho" especie="Cachorro" raca="Dalmata" url={img1} />
+          <CardPet nome="Rex" especie="Cachorro" raca="SRD" url={img2} />
+          <CardPet nome="Tanatos" especie="Cachorro" raca="SRD" url={img3} />
+          <CardPet nome="Toby" especie="Cachorro" raca="SRD" url={img4} />
         </CarrouselItem>
 
         <TitleSection title="Gatos" />
