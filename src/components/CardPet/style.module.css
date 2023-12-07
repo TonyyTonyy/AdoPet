@@ -22,7 +22,7 @@
     width: 260px;
     height: 180px;
     padding: 10px;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 .span{
