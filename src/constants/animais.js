@@ -1,4 +1,5 @@
 // constants.js
+
 const animaisDATA = [
     {
         nome: 'Peludim',

@@ -1,6 +1,6 @@
 import react from "react";
 import style from "./style.module.css";
-import imgPet from "../../assets/Cachorro-imagem.svg";
+
 
 const CardPet = (props) => {
   return (
@@ -8,7 +8,7 @@ const CardPet = (props) => {
       <div className={` ${style.CardPet}`}>
         <div className={` ${style.compPet}`}>
           <div className={style.imgPet}>
-            <img className={style.imgDog} src={imgPet} alt="" />
+            <img className={style.imgDog} src={props.url} alt="" />
             <div className={style.div1}>
               <div className={style.infoCard}>
                 <span className={style.span}> Nome: </span>
